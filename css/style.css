@@ -18,7 +18,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 
 header {
-  height: 48px;
+  height: 72px;
   display: flex;
   text-align: center;
   background: #EAB25B;
@@ -84,7 +84,7 @@ footer {
 }
 
 footer {
-  height: 150px;
+  height: 350px;
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -104,6 +104,10 @@ footer {
 
 .black {
     background-color: black;
+}
+
+.white {
+  background-color: white;
 }
 
 @media only screen and (max-width: 720px) {
@@ -128,5 +132,6 @@ footer {
 
   footer {
     height: 50px;
+    background-color: #C6403D
   }
 }
