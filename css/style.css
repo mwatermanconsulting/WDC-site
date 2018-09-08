@@ -5,38 +5,35 @@
   padding: 0;
 }
 
-body {
-  padding: 1em;
-  background: #333;
-  color: #F0ECE3;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 800;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: flex;
-  min-height: 100%;
-  /* 1, 3 */
-  flex-direction: column;
-  margin: 0;
-  padding: 0;
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, main, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
 
-header, footer {
-  text-align: center;
-  background: #EAB25B;
-  color: #333;
-}
 
 header {
-  height: 100px;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
+  height: 48px;
   display: flex;
+  text-align: center;
+  background: #EAB25B;
   align-items: center;
   justify-content: center;
 }
+
+footer {
+    height: 24px;
+    display: flex;
+    text-align: center;
+    background: #EAB25B;
+    align-items: center;
+    justify-content: center;
+  }
 
 .body {
   display: flex;
@@ -45,14 +42,32 @@ header {
   height: 100%
 }
 
-.section_container {
-  display: flex;
-  width: 100%;
-  margin: 0 auto;
-  height: 80%
-
+.section_wrapper_full {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    height: 1366px;
+    min-height: 1366px;
 }
-.body .main-content {
+
+.section_wrapper_half {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    height: 768px;
+    min-height:768px;
+    background-color: #EAB25B;
+
+  }
+
+.section_wrapper_quarter{
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    height: 384px;
+  }
+
+ .content-area_full {
   background: #C6403D;
   order: 2;
   flex: 3;
@@ -76,6 +91,19 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
+
+}
+
+.red {
+    background-color: crimson;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.black {
+    background-color: black;
 }
 
 @media only screen and (max-width: 720px) {
