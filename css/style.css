@@ -39,13 +39,18 @@ header {
 }
 
 .body {
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
   display: flex;
   width: 100%;
   margin: 0 auto;
-  height: 600px;
+  height: 100%
+}
+
+.section_container {
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  height: 100%
+
 }
 .body .main-content {
   background: #C6403D;
