@@ -110,6 +110,10 @@ footer {
   background-color: white;
 }
 
+.yellow {
+  background-color: yellow;
+}
+
 @media only screen and (max-width: 720px) {
   .body {
     display: -webkit-box;
