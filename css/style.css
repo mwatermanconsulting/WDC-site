@@ -33,7 +33,7 @@ footer {
     background: #EAB25B;
     align-items: center;
     justify-content: center;
-  }
+}
 
 .body {
   display: flex;
@@ -58,14 +58,14 @@ footer {
     min-height:768px;
     background-color: #EAB25B;
 
-  }
+}
 
 .section_wrapper_quarter{
     display: flex;
     width: 100%;
     margin: 0 auto;
     height: 384px;
-  }
+}
 
  .content-area_full {
   background: #C6403D;
@@ -91,7 +91,6 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-
 }
 
 .red {
@@ -105,6 +104,7 @@ footer {
 .black {
     background-color: black;
 }
+
 .white {
     background-color:white;
     color: white;
