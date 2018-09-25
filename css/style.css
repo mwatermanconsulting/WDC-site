@@ -105,6 +105,10 @@ footer {
 .black {
     background-color: black;
 }
+.white {
+    background-color:white;
+    color: white;
+}
 
 .white {
   background-color: white;
